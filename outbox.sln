@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outbox_Pattern_Demo", "Outbox_Pattern_Demo\Outbox_Pattern_Demo.csproj", "{0A89C4AC-4BA2-44E4-BEA0-92BDC548154A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F449682B-295F-448E-AB1B-2B93F057B47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F449682B-295F-448E-AB1B-2B93F057B47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F449682B-295F-448E-AB1B-2B93F057B47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F449682B-295F-448E-AB1B-2B93F057B47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89804661-1B66-4792-8857-308339683D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89804661-1B66-4792-8857-308339683D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89804661-1B66-4792-8857-308339683D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89804661-1B66-4792-8857-308339683D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A89C4AC-4BA2-44E4-BEA0-92BDC548154A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A89C4AC-4BA2-44E4-BEA0-92BDC548154A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A89C4AC-4BA2-44E4-BEA0-92BDC548154A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A89C4AC-4BA2-44E4-BEA0-92BDC548154A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

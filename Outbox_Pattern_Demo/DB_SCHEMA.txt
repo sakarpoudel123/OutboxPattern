@@ -1,0 +1,22 @@
+//creating database
+CREATE DATABASE Outbox_Pattern_Demo;
+
+
+//create outbox message table
+CREATE TABLE Outbox_Message
+(
+    Event_Id BIGINT IDENTITY PRIMARY KEY,
+    Event_Payload NVARCHAR(MAX) NOT NULL,
+    Event_Date DATETIME NOT NULL,
+    DEFAULT CURRENT_TIMESTAMP,
+    IsMessageDispatched BIT NOT NULL
+)
+
+//Create Order table
+CREATE TABLE Order
+(
+    Order_Id BIGINT IDENTITY PRIMARY KEY,
+    Customer_Id INT NOT NULL,
+    Order_Date DATETIME,
+    Order_Amount MONEY NOT NULL
+)
